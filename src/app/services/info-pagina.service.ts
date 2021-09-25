@@ -3,11 +3,12 @@ import { Injectable } from '@angular/core';
 import { InfoPagina } from '../interfaces/info-pagina.interface';
 import { Equipo } from '../interfaces/equipo.interface';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class InfoPaginaService {
-
+  
   info: InfoPagina = {};
   cargada = false;
 
@@ -45,6 +46,10 @@ export class InfoPaginaService {
         console.log(res);
 
         this.equipo = res;
+      },
+      
+        error=>{
+          console.log(<any>error);
       });
       
    }

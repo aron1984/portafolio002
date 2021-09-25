@@ -26,3 +26,23 @@
 .rk-logo:hover{
     color: #014AC2 ;
 }
+
+/*animaciones loading*/
+
+svg path,
+svg rect{
+  fill: #014AC2;
+}
+
+/*loading*/
+
+#loading{
+    text-align: center;
+    width: 25%;
+    margin: 0px auto;
+    
+}
+
+#loading h2,p{
+    width: 100%;
+}

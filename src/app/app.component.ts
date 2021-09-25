@@ -9,7 +9,7 @@ import { InfoPaginaService } from './services/info-pagina.service';
 export class AppComponent {
   title = 'portafoliodos';
 
-    constructor( public _infoPaginaService: InfoPaginaService){
+    constructor( public _infoPaginaService: InfoPaginaService ){
 
     }
     // leer el archivo json
